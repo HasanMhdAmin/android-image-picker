@@ -1,0 +1,3 @@
+include ':PhotoGallery'
+include ':app'
+rootProject.name = "PhotoGallery"
