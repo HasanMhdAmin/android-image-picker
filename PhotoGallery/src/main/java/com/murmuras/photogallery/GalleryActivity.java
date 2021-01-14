@@ -17,9 +17,10 @@ import com.murmuras.photogallery.model.ImageItem;
 import java.util.ArrayList;
 
 /**
- * Drawable: new Image("android.resource://com.murmuras.MockPhotoGallery/drawable/murmuras")
- * Asset: new Image("file:///android_asset/images/murmuras.png")
- * External urls: new Image("https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg")
+ * Drawable: new ImageItem("android.resource://com.murmuras.MockPhotoGallery/drawable/murmuras")
+ * Asset: new ImageItem("file:///android_asset/images/murmuras.png")
+ * Local file: new ImageItem("file://" + file.getAbsolutePath())
+ * External urls: new ImageItem("https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg")
  */
 public class GalleryActivity extends AppCompatActivity {
     public static final String IMAGES = "images";
